@@ -13,7 +13,7 @@ fr:
     title: Code secret
   about:
     contact_info: Informations de contact
-    email_us: Envoyez-nous un courriel à <a href="mailto:support@fetlife.com">support@fetlife.com</a> et nous vous recontacterons très vite!
+    email_us: Envoyez-nous un email à <a href="mailto:support@fetlife.com">support@fetlife.com</a> et nous vous recontacterons très vite!
     europe: Europe
     got_question: Avez-vous une question ? Besoin d’aide ?
     north_america: Amérique du Nord
@@ -25,9 +25,9 @@ fr:
     step: Step
   edit_profile:
     sidebar_questions:
-      pics_and_vids_discoverability_a: Through FetLife’s search, your pics and vids are only findable by friends and followers. If you want other FetLifers to discover your kinkalicious pics and vids, you can update your privacy settings.
+      pics_and_vids_discoverability_a: Grâce à la recherche de FetLife, vos photos et vidéos ne peuvent être trouvées que par des amis et des abonnés. Si vous voulez que d'autres FetLifers découvrent vos photos et vidéos kinkalicious, vous pouvez mettre à jour vos paramètres de confidentialité.
       pics_and_vids_discoverability_link: Go to settings
-      pics_and_vids_discoverability_q: Pics and vid discoverability
+      pics_and_vids_discoverability_q: Découvrabilité des photos et vidéos
   feed:
     comment: Commentaire
     comments_count:
@@ -58,7 +58,7 @@ fr:
   forgot_password:
     email:
       cta: Envoie-moi un email avec instructions
-      error_forgot_email: Le courriel est requis.
+      error_forgot_email: Un email est requis.
       error_invalid_email: Ça ne ressemble pas à une adresse mail valide. Veuillez la relire et la re-soumettre.
       error_quota: We've recently sent a reset email to the above email address.  It can take up to 5-10 minutes for an email to show up in your inbox.  Please double check that the email did not end up in your spam folder.  If after 10 minutes you have not received the email you may try again to reset your password.
       placeholder: Adresse mail
@@ -71,7 +71,7 @@ fr:
         subtitle: S’il existe un profil associé à cet email <span class='fw7'>%{given_email}</span>, alors nous vous avons envoyé des instructions pour réinitialiser votre mot de passe.
         title: Vous avez “PEUT-ÊTRE” du courrier !
       update_email: mettre à jour l’adresse mail
-      warning: "<strong>Avertissement du Ministère de la Santé :</strong> Pour des raisons de sécurité, nous ne pouvons pas vous dire si une adresse mail existe ou non dans notre base de données. Si vous ne recevez pas de courriel de nous, il est probable que nous n’avons pas de compte associé à cette adresse mail."
+      warning: "<strong>Avertissement du Ministère de la Santé :</strong> Pour des raisons de sécurité, nous ne pouvons pas vous dire si une adresse mail existe ou non dans notre base de données. Si vous ne recevez pas de email de nous, il est probable que nous n’avons pas de compte associé à cette adresse mail."
     mobile:
       5strike:
         return: Retour à la page d’accueil
@@ -89,7 +89,7 @@ fr:
         cta: Vérifier que vous êtes vous &#8482;
         error_code_match: "<strong>Opérateur Kinky :</strong> Le code de vérification que vous avez entré est incorrect. Vérifiez que le numéro ci-dessus correspond à celui reçu de nous et ré-essayez. Ceci est un message enregistré."
         inexisting_number: Si après deux minutes vous ne recevez pas un texto de nous, c’est probablement que nous n’avons pas de profil associé à votre numéro. Nous vous recommandons soit d’<a href="%{forgot_password_email_path}">essayer de réinitialiser votre mot de passe en utilisant un autre méthode</a>, soit de <a href="%{signup_path}">créer un nouveau profil sur FetLife</a>.
-        label: 6-digit Verification Code
+        label: Code de verification a 6 chiffre
         page_title: Entrez le code de vérification
         subtitle: Please enter the 6-digit code we "might" have just sent to you at %{phone_number}.
         title: Entrez le code de vérification
@@ -148,7 +148,7 @@ fr:
     cancel_notice: L’invitation à %{email} a été annulée.
     cta: Invite un ami à rejoindre FetLife
     error: Nous avons des problèmes à envoyer une invitation à l’adresse mail çi-dessus. Nous vous recommandons de vérifier sa justesse ou d’en essayez une autre.
-    error_forgot_email: Email address is required.
+    error_forgot_email: Adresse mail invalide.
     invitations_accepted: Invitations acceptées
     invitations_sent: Invitations envoyées
     labels:
@@ -156,7 +156,7 @@ fr:
       friends_email: Addresse mail de ton ami
       friends_email_sub: "%{count} invitation⋅s restante⋅s"
     next_step: étape suivante
-    return_to_feed: retour à feed
+    return_to_feed: retour au feed #au me parret plus juste que à
     subtitle_step1:
       one: Vous avez 1 invitation restante.
       other: Vous avez %{count_with_delimiter} invitations restantes.
@@ -167,16 +167,16 @@ fr:
   landing_page:
     login_button: Se connecter à FetLife
     signup_button: S’inscrire à FetLife
-    stats_details: partagent <strong class="fw4 silver">%{picture_count} images</strong> et <strong class="fw4 silver">%{video_count} videos</strong>, participent à <strong class="fw4 silver">%{discussion_count} discussions</strong> dans <strong class="fw4 silver">%{group_count} groupes</strong>, vont à <strong class="fw4 silver">%{event_count} évènements à venir</strong>, et lisent <strong class="fw4 silver">%{post_count} articles de blog</strong>. <span><span class="i">Paradis kinky!</span>
+    stats_details: partagent <strong class="fw7 silver">%{picture_count} images</strong> et <strong class="fw7 silver">%{video_count} videos</strong>, participent à <strong class="fw7 silver">%{discussion_count} discussions</strong> dans <strong class="fw7 silver">%{group_count} groupes</strong>, vont à <strong class="fw7 silver">%{event_count} évènements à venir</strong>, et lisent <strong class="fw7 silver">%{post_count} articles de blog</strong>. <span><span class="i">Paradis kinky!</span>
     stats_members: Membres
     subtitle: Comme Facebook, mais géré par des kinksters comme toi et moi. On pense que c’est plus amusant comme ça. Pas toi ?
     title: FetLife est le réseau social de la communauté BDSM, fétiche & kinky.
   legalese:
     headers:
       2257_exempt: 2257 Exempt
-      legal_requests: Legal Requests
-      privacy_policy: Privacy Policy
-      terms_of_use: Terms of Use
+      legal_requests: Requêtes légales
+      privacy_policy: Politique de confidentialité
+      terms_of_use: Conditions d'utilisation
     subnav:
       2257_exempt: Exemption 2257
       legal_requests: Requêtes légales
@@ -225,13 +225,13 @@ fr:
     groups: Groupes
     home: Accueil
     places: Endroits
-    search_placeholder: Chercher FetLife
+    search_placeholder: Rechercher FetLife #plus pertinant que Chercher, peux aussi etre : Espace de recherche FetLife
     videos: Videos
-    writings: Writings
+    writings: Écrits
   page_break:
     of: de
   privacy:
-    title: Privacy
+    title: Vie privée
   profile:
     about_title: Liste d’ami⋅e⋅s
     pictures_title: Photos
@@ -312,8 +312,8 @@ fr:
     page_title: Mettre à jour le profil
     subtitle: Le développement personnel est une bonne chose.
     title: Votre profil
-    website_url_cant_be_blank: Website URL can't be blank
-    website_url_too_long: Website URL is too long (maximum is %{count} characters)
+    website_url_cant_be_blank: L'URL du site Web ne peut pas être vide
+    website_url_too_long: L'URL du site Web est trop longue (maximum is %{count} characters)
     websites_label: Sites web
     websites_placeholder: https://fetlife.com
   settings_support:
@@ -325,36 +325,36 @@ fr:
     title: Mettre à jour l’adresse mail
   sidebar:
     about_fetlife: À propos de Fetlife
-    advertisers: All Advertisers
+    advertisers: Toutes les Publicités
     advertising: Publicité
     already_member: Déjà membre?
     androidapp: Installer l’app Android de FetLife
-    become_verified: Become Verified!
+    become_verified: Devenez Vérifié ! #peux mieux faire !
     bug_bounty: Prime pour bug
-    careers: Careers
+    careers: Carrières
     change_language: Changer de langue
     close: fermer
-    contact_us: Contact Us
-    content_guidelines: Content Guidelines
-    edit_profile: Modifier profil
-    edit_settings: Modifier paramètres
+    contact_us: Contactez-nous
+    content_guidelines: Directives relatives au contenu
+    edit_profile: Modifier le profil #plus français
+    edit_settings: Modifier les paramètres #plus français
     events: Événements
     exempt: 2257 Exempt
     fetishes: Fétiches
     following: Suivi
-    formatting: Formatting Guidelines
-    fp: Fresh & Pervy
+    formatting: Consignes de formatage #peux mieux faire (Formatting Guidelines)
+    fp: Frais et pervers
     friends_and_following: Amis & Abonnés
     funny_quote: Si vous ne pouvez pas lire ceci… vous avez probablement besoin de lunettes ! - John 4:69
     gift_support: Faites cadeau d’un support à FetLife
     glossary: Glossaire
     groups: Groupes
     guidelines: Lignes directrices
-    guiding_values: Guiding Values
+    guiding_values: Valeurs directrices #peux mieux faire (Guiding Values) peux etre ligne directive
     home: Accueil
     invite_a_friend: Inviter un ami (%{count})
-    kp: Kinky & Popular
-    legal_requests: Legal Request
+    kp: Coquin et populaire 
+    legal_requests: Demande légale 
     legalese: Légal
     log_out: Déconnexion
     login: Connexion
@@ -363,36 +363,37 @@ fr:
     open_source: Open source
     places: Endroits
     privacy: Confidentialité
-    privacy_policy: Privacy Policy
+    privacy_policy: Politique de confidentialité
+    pwa: Ajouter FetLife à l'écran d'accueil
     recommendations: Recommandations
     signup: Inscription
     support: Supporter FetLife
     terms: Conditions
     title:
-      about_fetlife: About FetLife
-      community: Community
-      legalese: Legalese
-      need_help: Need Help?
-    transparency: Transparency
-    trust_and_safety: Trust & Safety
+      about_fetlife: À propos de FetLife
+      community: Communauté
+      legalese: jargon juridique #peux mieux
+      need_help: Besoin d'aide?
+    transparency: Transparence
+    trust_and_safety: Confiance et sécurité #peux mieux
     upload_picture: Envoyer photos
     upload_video: Envoyer vidéo
-    verification_pending: Profile Verification Pending
+    verification_pending: Vérification du profil en attente
     videos: Videos
     view_friends: Voir ami⋅e⋅s
-    view_terms: View Terms of Use
-    wallpapers: FetLife Wallpapers
-    whats_new: Quoi de neuf
+    view_terms: Afficher les conditions d'utilisation
+    wallpapers: Fonds d'écran FetLife
+    whats_new: Quoi de neuf ?
     write_post: Écrire un post
-    writings: Writings
+    writings: Écrits
   signup:
     almost_there: Presque arrivé⋅e !
-    error_bar: Dallas, nous avons un problème. Faites défiler vers le bas pour plus d’informations.
-    error_bar_invalid_credentials: Looks like your Nickname, Email or Password is incorrect, please try again!
+    error_bar: Houston, nous avons un problème. Faites défiler vers le bas pour plus d’informations.
+    error_bar_invalid_credentials: Il semble que votre pseudo, e-mail ou mot de passe soit incorrect, veuillez réessayer !
     error_birthdate: La date de naissance est obligatoire.
     error_birthdate_too_old: Vous êtes trop vieux⋅vieille.
     error_birthdate_too_young: Vous n’êtes pas assez vieux⋅vieille (vous devez avoir au moins 18 ans).
-    error_birthdate_too_young_on_update: Sorry, you must be 18 or older to use FetLife
+    error_birthdate_too_young_on_update: Désolé, vous devez avoir 18 ans ou plus pour utiliser FetLife
     error_city_missing: La ville doit être sélectionnée.
     error_country_missing: Le pays doit être sélectionné.
     error_email: Nous avons des problèmes avec le traitement de l’adresse mail ci-dessus. Nous vous recommandons d’en vérifier l’orthographe ou d’en essayer une autre.
@@ -407,7 +408,7 @@ fr:
     error_role_required: Le rôle doit être sélectionné.
     error_sexual_orientation_required: L’orientation sexuelle doit être sélectionnée.
     error_state_missing: L’état/la province doit être sélectionné⋅e.
-    footnote: En cliquant "Compléter l’inscription & la vérification" vous acceptez de respecter et de suivre nos <a class="gray-400 link underline hover-gray-300" href="%{tou_path}" target="_blank">Conditions d'utilisation</a>, <a class="gray-400 link underline hover-gray-300" href="%{privacy_path}" target="_blank">Politique de confidentialité</a> et <a class="gray-400 link underline hover-gray-300" href="%{guidelines_path}" target="_blank">Règles de communauté</a>.
+    footnote: En cliquant "Compléter l’inscription & la vérification" vous acceptez de respecter et de suivre nos <a class="gray link underline hover-moon-gray" href="%{tou_path}" target="_blank">Conditions d'utilisation</a>, <a class="gray link underline hover-moon-gray" href="%{privacy_path}" target="_blank">Politique de confidentialité</a> et <a class="gray link underline hover-moon-gray" href="%{guidelines_path}" target="_blank">Règles de communauté</a>.
     label:
       birthdate: Date de naissance
       city: Ville
@@ -433,7 +434,7 @@ fr:
   signup_five_strikes:
     page_title: Règle des cinq essais
     return_to_front: retour à la page d’accueil
-    subtitle_error: Merdre, pour des raisons de sécurité, vous devrez attendre deux heures avant de pouvoir ré-essayer de vous inscrire.
+    subtitle_error: Merdre, pour des raisons de sécurité, vous devrez attendre deux heures avant de pouvoir ré-essayer de vous inscrire. #"Merdre" n'existe pas en français, mais j'arrive pas ecrir "Merde"
     title: Règle des cinq essais
   signup_follow:
     follow: Suivre
@@ -452,14 +453,14 @@ fr:
     subtitle: Texto anonyme unique.
     title: Temps de la vérification !
   signup_verify:
-    cta: Verify Mobile Number
-    incorrect_code: "<strong>Opérateur Kinky :</strong> Doh… le code de vérification que vous avez entré semble incorrect. Veuillez vérifier que le numéro ci-dessus correspond à ce que vous avez reçu de nous, et essayez à nouveau."
-    label: Code de vérification à 6 chiffres
+    cta: Compléter l’inscription & la vérification
+    incorrect_code: "<strong>Opérateur Kinky :</strong> Doh… le code de vérification que vous avez entré semble incorrect. Veuillez vérifier que le numéro ci-dessus correspond à ce que vous avez reçu de nous, et essayez à nouveau." #Ce serai peux etre mieux avec un "Tin..." au lieu du "Doh..."
+    label: Code de vérification
     notice: Nous avons envoyé le code de vérification à <strong>%{phone_number}</strong>. Si après quelques minutes vous ne recevez pas un texto de nous, <a href="%{back_path}">mettez à jour votre numéro et nous vous enverrons un nouveau code de vérification</a>.
-    page_title: Verify Mobile Number
+    page_title: Entrez le code de vérification
     placeholder: Code de vérification à 6 chiffres
-    subtitle: You'll receive a one-time anonymous text message.
-    title: Verify Mobile Number
+    subtitle: Ce n’était pas si difficile, n’est-ce pas ?!?!
+    title: Dernière étape
   subnav:
     feed:
       activity_feed: Fil d’activité
@@ -490,18 +491,18 @@ fr:
       profile_short: Profil
       support: Support
       support_short: Support
-  support:
+ support:
     benefits:
       item_1: Avoir un badge sexy <span>I Support FetLife</span> sur votre profil.
       item_10: Obtenir en avant-première un <span>accès aux nouvelles fonctionnalités</span> !
-      item_2: Perv <span>over 5,000 of today’s most popular</span> pics, vids, and writings.
+      item_2: Découvrez <span>plus de 5 000 photos, vidéos et écrits parmi les plus populaires</span> d'aujourd'hui.
       item_3: Regarder <span>toutes les %{number}+ vidéos</span> partagées par la communauté.
       item_4: Regarder <span>toutes les %{number}+ images</span> dès qu’elles sont partagées.
       item_5: Voir <span>tout ce que vous avez jamais aimé</span>.
       item_6: Revenir <span>25× plus loin</span> en arrière dans votre fil d’ami⋅e⋅s.
       item_7: Revenir <span>25× plus loin</span> en arrière dans votre fil @You.
       item_8: "<span>Personnaliser votre fil d’ami⋅e⋅s</span> autant que vous le voulez."
-      item_9: Option to <span>hide inline ads</span> on mobile.
+      item_9: Possibilité de <span>masquer les annonces intégrées</span> sur mobile.
       list_description: 'Pour seulement 5$ par mois, vous n’aidez pas seulement à supporter le développement continu de FetLife, mais vous pouvez :'
       list_footer: Tout ça pour moins cher qu’une bouteille de lubrifiant… Bien que nous ne vous recommandions pas de remplacer le lubrifiant par de l’huile de colza… Ça ne marche pas très bien.
       thank_you: Sans votre support il n’y aurait pas de FetLife. Merci, de la part de toute la famille FetLife !
@@ -510,7 +511,7 @@ fr:
       ach: Virement bancaire (ACH)
       cc_curo: Carte de crédit
       cc_trustpay: Carte de crédit
-      coingate: Cryptocurrency
+      coingate: Crypto-monnaie
       eps: EPS
       giropay: giropay
       ideal: iDEAL
@@ -557,9 +558,9 @@ fr:
       question_q: Q. Vous avez d’autres questions ?
       renew_a: Jamais. Nous voulons toujours mériter votre support.
       renew_q: Q. Renouvelez-vous automatiquement mon support ?
-      return_a_part_1: We offer a 7-day money back guarantee!
-      return_a_part_2: 'Unfortunately though, due to the nature of the following payment methods, we can''t issue refunds and all payments using these methods will be final sale: Gift Card Trade-IN, POLi, Cryptocurrency, and Paysafecard.'
-      return_a_part_3: Refunds are limited to one per person.
+      return_a_part_1: Nous offrons une garantie satisfait ou remboursé de 7 jours !
+      return_a_part_2: "Malheureusement, en raison de la nature des méthodes de paiement suivantes, nous ne pouvons pas émettre de remboursements et tous les paiements utilisant ces méthodes seront des ventes finales : Gift Card Trade-IN, POLi, Cryptocurrency et Paysafecard."
+      return_a_part_3: Les remboursements sont limités à un par personne.
       return_q: Q. Quelle est votre politique de remboursement ?
       secure_a: Oui, très. FetLife n’enregistre aucunes de vos informations personnelles sur ses serveurs. Nous n’utilisons les informations que vous nous fournissez que pour procéder à la transaction, et c’est tout.
       secure_q: Q. Est-ce sécurisé ?
@@ -568,12 +569,12 @@ fr:
       affirm: Vous êtes le⋅la meilleur⋅e !
       confirm: Je veux offrir le support à %{nickname}
       header: Supporter FetLife aujourd’hui!
-      subheader: Et obtenez tous les <a href='%{link}'>sexy avantages</a> qui vont avec le statut de supporter.
+      subheader: Et obtenez tous les <a href='%{link}'>avantages sexy</a> qui vont avec le statut de supporter.
       thank_you: Merci pour le support !
       title: Support offert à %{nickname}
       yourself: Achetez le support pour vous-même
     header:
-      subheader: Et obtenez tous les <a href='%{link}'>sexy avantages</a> qui vont avec le statut de supporter.
+      subheader: Et obtenez tous les <a href='%{link}'>avantages sexy</a> qui vont avec le statut de supporter.
       title: Supporter FetLife aujourd’hui !
     step1:
       ach:
@@ -586,8 +587,8 @@ fr:
         extra_info: Nous acceptons Visa et Mastercard. C'est simple et sécurisé.
         title: Carte de crédit
       coingate:
-        extra_info: We accept Bitcoin, Ethereum, Dogecoin, Litecoin, XRP, and Dash.
-        title: Cryptocurrency
+        extra_info: Nous acceptons Bitcoin, Ethereum, Dogecoin, Litecoin, XRP et Dash.
+        title: Crypto-monnaie
       eps:
         extra_info: Aussi pratique et sécurisé que de payer par carte, pour ceux qui ont un compte bancaire supportant EPS en Autriche.
         title: Virement bancaire autrichien (EPS)
@@ -602,14 +603,14 @@ fr:
         title: Interac e-Transfer canadien
       less_options: Cacher les options additionnelles
       mail:
-        extra_info: If you're old school, we accept international money order, checks, or cash through the mail.
+        extra_info: Si vous êtes de la vieille école, nous acceptons les mandats internationaux, les chèques ou les espèces par la poste.
         title: Courrier physique
       more_options: Afficher plus d’options
       paygarden:
         extra_info: Échange de cartes cadeau de plus de 100 marques, y compris Starbucks, Best Buy, Target, Walmart, Home Depot, et Build-A-Bear.
         title: Échange de cartes cadeau de grandes enseignes
       paysafe:
-        extra_info: You can buy a Paysafecard and use it to support FetLife in over 500,000 physical stores, located in 43 countries.
+        extra_info: Vous pouvez acheter une Paysafecard et l'utiliser pour soutenir FetLife dans plus de 500 000 magasins physiques, situés dans 43 pays.
         title: Paysafecard pré-payée
       poli:
         extra_info: Aussi pratique et sécurisé que de payer par carte, pour ceux qui ont un compte bancaire en Australie ou en Nouvelle-Zélande.
@@ -672,75 +673,75 @@ fr:
       zip_label: Code ZIP
       zip_sub_label: associé au compte bancaire
     step3_cc_curo:
-      cta: Support FetLife via Credit Card
-      first_name_label: First Name
-      first_name_sub_label: associated w/ credit card
-      last_name_label: Last Name
-      last_name_sub_label: associated w/ credit card
-      secure: Secure as Fort Knox and we don't store any of your personal information.
-      title: Credit Card Payment
+      cta: Soutenez FetLife par carte de crédit
+      first_name_label: Prénom
+      first_name_sub_label: associé à la carte de crédit
+      last_name_label: Nom de famille
+      last_name_sub_label: associé à la carte de crédit
+      secure: Sécurisé comme Fort Knox et nous ne stockons aucune de vos informations personnelles.
+      title: Paiement par carte de crédit
     step3_cc_trustpay:
-      cta: Support FetLife via Credit Card
-      pay_button: Support FetLife via Credit Card
-      secure: Secure as Fort Knox and we don't store any of your personal information.
-      title: Credit Card Payment
+      cta: Soutenez FetLife par carte de crédit
+      pay_button: Soutenez FetLife par carte de crédit
+      secure: Sécurisé comme Fort Knox et nous ne stockons aucune de vos informations personnelles.
+      title: Paiement par carte de crédit
     step3_coingate:
-      cta: Support FetLife via Cryptocurrency
-      intro: 'Some intro videos we enjoyed watching:'
-      secure: Secure as Fort Knox
-      title: "“How To” for Cryptocurrency"
-      title_html: "&ldquo;How To&rdquo; for Cryptocurrency"
-      wallets_list_header: 'We''ve had good experience with the following wallet provider:'
-      wallets_title: Recommended Cryptocurrency Wallets
-      what: What is Cryptocurrency?
+      cta: Soutenez FetLife via la crypto-monnaie
+      intro: "Quelques vidéos d'introduction que nous avons aimé regarder :"
+      secure: Sécurisé comme Fort Knox
+      title: ""Comment faire" pour la crypto-monnaie"
+      title_html: ""Comment faire" pour la crypto-monnaie"
+      wallets_list_header: "Nous avons eu une bonne expérience avec le fournisseur de portefeuille suivant :"
+      wallets_title: Portefeuilles de crypto-monnaie recommandés
+      what: Qu'est-ce que la crypto-monnaie ?
     step3_eps:
-      address_label: Address
-      address_sub_label: associated w/ bank account
-      city_label: City
-      city_sub_label: associated w/ bank account
-      cta: Make EPS Payment
-      first_name_label: First Name
-      first_name_sub_label: associated w/ bank account
-      last_name_label: Last Name
-      last_name_sub_label: associated w/ bank account
-      postal_code_label: Postal Code
-      postal_code_sub_label: associated w/ bank account
-      secure: Secure as Fort Knox and we don't store any of your personal information.
-      title: EPS Payment
+      address_label: Adresse
+      address_sub_label: associé à un compte bancaire
+      city_label: Ville
+      city_sub_label: associé à un compte bancaire
+      cta: Effectuer un paiement EPS
+      first_name_label: Prénom
+      first_name_sub_label: associé à un compte bancaire
+      last_name_label: Nom de famille
+      last_name_sub_label: associé à un compte bancaire
+      postal_code_label: code postal
+      postal_code_sub_label: associé à un compte bancaire
+      secure: Sécurisé comme Fort Knox et nous ne stockons aucune de vos informations personnelles.
+      title: Paiement EPS
     step3_giropay:
-      account_number_label: 'Account #'
-      account_number_placeholder: Account Number
-      account_number_sub_label: Valid Bank Account Number
-      address_label: Address
-      address_sub_label: associated w/ bank account
-      city_label: City
-      city_sub_label: associated w/ bank account
-      cta: Make giropay Payment
-      first_name_label: First Name
-      first_name_sub_label: associated w/ bank account
-      last_name_label: Last Name
-      last_name_sub_label: associated w/ bank account
-      postal_code_label: Postal Code
-      postal_code_sub_label: associated w/ bank account
-      routing_number_label: BIC / SWIFT Code
-      routing_number_placeholder: Bank Identifier Code
-      routing_number_sub_label: 8 or 11 characters long
-      secure: Secure as Fort Knox and we don't store any of your personal information.
-      title: giropay Payment
+      account_number_label: 'Compte #'
+      account_number_placeholder: Numéro de compte
+      account_number_sub_label: Numéro de compte bancaire valide
+      address_label: Adresse
+      address_sub_label: associé à un compte bancaire
+      city_label: Ville
+      city_sub_label: associé à un compte bancaire
+      cta: Effectuer le paiement par giropay
+      first_name_label: Prénom
+      first_name_sub_label: associé à un compte bancaire
+      last_name_label: Nom de famille
+      last_name_sub_label: associé à un compte bancaire
+      postal_code_label: code postal
+      postal_code_sub_label: associé à un compte bancaire
+      routing_number_label: Code BIC/SWIFT
+      routing_number_placeholder: code d'identifiant bancaire
+      routing_number_sub_label: 8 ou 11 caractères
+      secure: Sécurisé comme Fort Knox et nous ne stockons aucune de vos informations personnelles.
+      title: Paiement giropay
     step3_ideal:
-      address_label: Address
-      address_sub_label: associated w/ bank account
-      city_label: City
-      city_sub_label: associated w/ bank account
-      cta: Make iDEAL Payment
-      first_name_label: First Name
-      first_name_sub_label: associated w/ bank account
-      last_name_label: Last Name
-      last_name_sub_label: associated w/ bank account
-      postal_code_label: Postal Code
-      postal_code_sub_label: associated w/ bank account
-      secure: Secure as Fort Knox and we don't store any of your personal information.
-      title: iDEAL Payment
+      address_label: Adresse
+      address_sub_label: associé à un compte bancaire
+      city_label: Ville
+      city_sub_label: aassocié à un compte bancaire
+      cta: Effectuer un paiement iDEAL
+      first_name_label: Prénom
+      first_name_sub_label: associé à un compte bancaire
+      last_name_label: Nom de famille
+      last_name_sub_label: associé à un compte bancaire
+      postal_code_label: code postal
+      postal_code_sub_label: associé à un compte bancaire
+      secure: Sécurisé comme Fort Knox et nous ne stockons aucune de vos informations personnelles.
+      title: Paiement idéal
     step3_interac:
       amount: 'Montant :'
       answer_label: 'Réponse :'
@@ -752,7 +753,7 @@ fr:
       thank_you: Merci !
       title: Envoyer un Interac e-Transfer
     step3_mail:
-      accept_options: International Money Order, Check, or Cash
+      accept_options: Mandat international, chèque ou espèces
       accept_title: 'Nous acceptons :'
       amount: 'Montant :'
       cta: Envoyez-moi par mail les infos ci-dessus
@@ -773,38 +774,38 @@ fr:
       title: Acheter une Paysafecard pré-payée
       where: Où acheter une Paysafecard ?
     step3_poli:
-      address_label: Address
-      address_sub_label: associated w/ bank account
-      city_label: City
-      city_sub_label: associated w/ bank account
-      country_label: Country
-      country_placeholder: Country
-      country_sub_label: associated w/ bank account
-      cta: Make POLi Payment
-      first_name_label: First Name
-      first_name_sub_label: associated w/ bank account
-      last_name_label: Last Name
-      last_name_sub_label: associated w/ bank account
-      postal_code_label: Postal Code
-      postal_code_sub_label: associated w/ bank account
-      secure: Secure as Fort Knox and we don't store any of your personal information.
-      state_label: State / Province
-      state_sub_label: associated w/ bank account
-      title: POLi Payment
+      address_label: Adresse
+      address_sub_label: associé à un compte bancaire
+      city_label: Ville
+      city_sub_label: associé à un compte bancaire
+      country_label: De campagne
+      country_placeholder: De campagne
+      country_sub_label: associé à un compte bancaire
+      cta: Effectuer un paiement POLi
+      first_name_label: Prénom
+      first_name_sub_label: associé à un compte bancaire
+      last_name_label: Nom de famille
+      last_name_sub_label: associé à un compte bancaire
+      postal_code_label: code postal
+      postal_code_sub_label: associé à un compte bancaire
+      secure: Ssous le nom de Fort Knox et nous ne stockons aucune de vos informations personnelles.
+      state_label: Etat / Province
+      state_sub_label: associé à un compte bancaire
+      title: Paiement POLi
     step3_przelewy:
-      address_label: Address
-      address_sub_label: associated w/ bank account
-      city_label: City
-      city_sub_label: associated w/ bank account
-      cta: Make Przelewy24 Payment
-      first_name_label: First Name
-      first_name_sub_label: associated w/ bank account
-      last_name_label: Last Name
-      last_name_sub_label: associated w/ bank account
-      postal_code_label: Postal Code
-      postal_code_sub_label: associated w/ bank account
-      secure: Secure as Fort Knox and we don't store any of your personal information.
-      title: Przelewy24 Payment
+      address_label: Adresse
+      address_sub_label: associé à un compte bancaire
+      city_label: Ville
+      city_sub_label: associé à un compte bancaire
+      cta: Effectuer le paiement Przelewy24
+      first_name_label: Prénom
+      first_name_sub_label: associé à un compte bancaire
+      last_name_label: Nom de famille
+      last_name_sub_label: associé à un compte bancaire
+      postal_code_label: code postal
+      postal_code_sub_label: associé à un compte bancaire
+      secure: Sécurisé comme Fort Knox et nous ne stockons aucune de vos informations personnelles.
+      title: Przelewy24 Paiement
     step3_sepa:
       address_label: Adresse
       address_sub_label: associée au compte bancaire
